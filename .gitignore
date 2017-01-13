@@ -1,0 +1,13 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/monetaui/src/androidTest/
+/monetaui/src/test/
+/app/src/androidTest/
+/app/src/test/

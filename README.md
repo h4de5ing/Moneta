@@ -22,3 +22,18 @@
  这个包里面的类是直接在Activity或者Fragment中直接调用
 
 * DialogUtils 对话框相关的工具类
+
+- divider的使用方法
+```
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:showDividers="middle">
+</LinearLayout>
+android:showDividers="middle"
+android:divider="@drawable/divider"
+以上2条属性就是现实divider的方式
+```

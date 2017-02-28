@@ -13,8 +13,11 @@ import com.bumptech.glide.request.target.Target;
 
 import java.io.File;
 
+/**
+ * 封装Glider框架加载图片
+ */
 
-public class GlideUtils {
+public class ImageLoaderUtils {
 
     /**
      * 以下三个方法适合在onDestroy方法处调用

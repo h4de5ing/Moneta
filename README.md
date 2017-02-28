@@ -25,4 +25,4 @@
  这个包里面的类是直接在Activity或者Fragment中直接调用
 
 * DialogUtils 对话框相关的工具类
-* GlideUtils Glide图片请求封装工具类
+* ImageLoaderUtils 图片请求框架Glide封装工具类

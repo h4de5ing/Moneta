@@ -31,3 +31,18 @@
 * ImageLoaderUtils 图片请求框架Glide封装工具类
 * ToastUtils 吐司工具类
 * SnackBarUtils SnackBar工具类
+
+- divider的使用方法
+```
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:orientation="vertical"
+    android:showDividers="middle">
+</LinearLayout>
+android:showDividers="middle"
+android:divider="@drawable/divider"
+以上2条属性就是现实divider的方式
+```

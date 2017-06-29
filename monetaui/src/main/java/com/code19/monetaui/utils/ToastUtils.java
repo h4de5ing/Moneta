@@ -2,7 +2,7 @@ package com.code19.monetaui.utils;
 
 import android.content.Context;
 
-import com.code19.monetaui.App;
+import com.code19.monetaui.base.BaseApplication;
 import com.code19.monetaui.widget.TipsToast;
 
 
@@ -30,7 +30,7 @@ public class ToastUtils {
 
     public static void showToast(String id) {
         if (toast == null) {
-            toast = new TipsToast(App.getApplication());
+            toast = new TipsToast(BaseApplication.getApplication());
         }
         toast.setText(id);
         toast.show();
@@ -38,7 +38,7 @@ public class ToastUtils {
 
     public static void showToast(int id) {
         if (toast == null) {
-            toast = new TipsToast(App.getApplication());
+            toast = new TipsToast(BaseApplication.getApplication());
         }
         toast.setText(id);
         toast.show();

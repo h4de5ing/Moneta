@@ -1,4 +1,4 @@
-package com.code19.monetaui;
+package com.code19.monetaui.base;
 
 import android.app.Application;
 
@@ -6,10 +6,10 @@ import android.app.Application;
  * Created by ghost on 2017/1/14.
  */
 
-public class App extends Application {
-    private static App application = null;
+public class BaseApplication extends Application {
+    private static BaseApplication application = null;
 
-    public static App getApplication() {
+    public static BaseApplication getApplication() {
         return application;
     }
 

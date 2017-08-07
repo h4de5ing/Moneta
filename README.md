@@ -1,8 +1,4 @@
-# Moneta 自定义View UI库
-
-## 封装常用UI
-
-## How to use
+# Moneta 封装常用UI
 
 ### com.code19.monetaui.base  基类
 
